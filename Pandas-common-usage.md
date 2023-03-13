@@ -103,4 +103,7 @@ def mean_age(group):
     
 # apply the mean_age function to each group
 mean_ages = df.groupby('gender').apply(mean_age)
+
+# apply a lambda function to each group to calculate the median salary
+median_salaries = df.groupby('gender').apply(lambda x: x['salary'].median())
 ```
