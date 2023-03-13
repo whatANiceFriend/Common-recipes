@@ -6,6 +6,15 @@ import pandas as pd
 data = {"name": ["Alice", "Bob", "Charlie"], "age": [25, 30, 35]}
 df = pd.DataFrame(data)
 ```
+## pd.read_csv()
+```
+df = pd.read_csv('my_data.csv')
+```
+## df.to_csv()
+```
+# write the DataFrame to a CSV file
+df.to_csv('my_data.csv', index=False)
+```
 ## df.drop()
 ```
 # Drop columns "col2" and "col3" from the DataFrame
