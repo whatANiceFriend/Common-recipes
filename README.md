@@ -1,3 +1,3 @@
 # Pandas-common-usage
 
-* [Pandas recipes](./examples.md)
+* [Pandas recipes](./Pandas-common-usage.md)
