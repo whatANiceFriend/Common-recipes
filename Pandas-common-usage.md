@@ -95,7 +95,7 @@ df_filtered = df[df["name"] == "Bob"]
 # select rows where age is greater than 30 and gender is 'M'
 df_filtered = df[(df['age'] > 30) & (df['gender'] == 'M')]
 ```
-## Use groupby() and apply together
+## Use groupby() and apply() together
 ```
 # define a function to calculate the mean age of a group
 def mean_age(group):
