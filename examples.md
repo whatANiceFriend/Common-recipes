@@ -25,6 +25,9 @@ col2_is_null = df["col2"].isnull()
 ```
 # Check if column "col2" does not contain any missing values
 col2_not_null = df["col2"].notnull()
+
+# Check for missing values in the DataFrame
+print(df.isnull())
 ```
 ## df.sort_values()
 ```
@@ -52,13 +55,6 @@ df = df.rename(columns={"old_name": "new_name"})
 ```
 # Group the DataFrame by a column and calculate the mean of another column
 grouped = df.groupby("group_col")["mean_col"].mean()
-```
-## df.isnull()
-```
-# Check if column "col2" contains any missing values
-col2_is_null = df["col2"].isnull()
-# Check for missing values in the DataFrame
-print(df.isnull())
 ```
 ## df.fillna()
 ```
